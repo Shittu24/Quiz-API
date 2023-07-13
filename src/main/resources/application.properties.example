@@ -1,0 +1,9 @@
+server.port=8000
+
+###		POSTGRESQL DATABASE CONFIG		###
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/dbname
+spring.datasource.username=DB username
+spring.datasource.password=DB Password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
